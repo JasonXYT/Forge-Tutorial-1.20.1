@@ -18,7 +18,7 @@ import org.slf4j.Logger;
 @Mod(TutorialMod.MOD_ID)
 public class TutorialMod
 {
-    // Define mod id in a common place for everything to reference
+    // Define mod id in a common place for everything to reference // changes on github
     public static final String MOD_ID = "tutorialmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
