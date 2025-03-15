@@ -11,6 +11,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
+//custom items
+
 public class MetalDetectorItem extends Item {
 
     public MetalDetectorItem(Properties pProperties) {
