@@ -1,6 +1,7 @@
 package net.jason.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.jason.tutorialmod.block.ModBlocks;
 import net.jason.tutorialmod.item.ModCreativeModeTabs;
 import net.jason.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,7 @@ public class TutorialMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus); //adds items to game
+        ModBlocks.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
